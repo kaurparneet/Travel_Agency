@@ -1,0 +1,164 @@
+/************vertical navbar image objects**********/
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+/***************footer*******************/
+
+#footer{
+color: white;
+background-color: #455A64;
+height:150px;
+width:100%;
+
+}
+
+
+#locations
+{
+text-align:center;
+padding: 24px;
+}
+
+#careers{
+
+text-align:center;
+padding: 24px;
+}
+
+#socialMedia{
+text-align:center;
+padding: 24px;
+}
+
+#copyrightStatement
+{
+font-size: 12px;
+}
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+ #copyrightStatement{
+   text-align: center;
+ }
+#careersBtn{
+  background: #009688;
+}
+
+/**************header**************/
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+/*******************body****************/
+body{
+  margin:0;
+   padding:0;
+   height:100%;
+   overflow-y: scroll;
+}
+/**************minimum-width for dropdownlist #455A64***********/
+#menuBar{
+  color:red;
+}
+/*************welcome banner*************/
+#welcomeBanner{
+  height:11%;
+  width:100%;
+  text-align:right;
+  font-family: 'Lobster', cursive;
+  font-size:24px ;
+  background-color:#9370DB;
+  position: relative;
+  top:5%;
+  padding:0px;
+}
+
+/*******************styling for login page************/
